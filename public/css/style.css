@@ -1,0 +1,260 @@
+li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: roboto;
+    background-color: #ebebeb;
+    width: 100%;
+    margin:0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #EAC926;
+    background-size: cover;
+    font-family: roboto;
+}
+
+main{
+    padding: 4%;
+
+}
+
+h2 {
+    font-size: 24px;
+    color:#666;
+
+}
+
+.precios {
+    font-size: 18px;
+    margin: 2%;
+    display: inline-block;
+}
+
+.descuentos {font-size: 16px;
+    color: #39b54a;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.destacado {
+    text-align: center;
+    font-size: 12px;
+    color:black
+}
+
+.logo{
+    max-width: 40%;
+}
+
+.buscador{
+    max-width: 40%;
+    display: inline-block;
+}
+
+#input-search{
+    width: 70%;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.search{
+    background-color: white;
+    width: 5%;
+    height: 5%;
+    color: #666;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+
+ul{
+    font-size: 12px;
+    display: flex;
+}
+
+.burger-menu {
+    background-color: blue;
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+    width: 6vw;
+    text-align: center;
+    margin: auto;
+}
+
+input{
+    font-size:22px;
+    margin-left: 5%;
+}
+
+img {
+    width: 100%;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+    color:#666;
+}
+
+.camion{
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 2px #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: transform .7s;
+}
+
+.card:hover .camion{
+    transform: rotate(-90deg)
+}
+
+
+footer h4{
+    text-align: center;
+    color: #666;
+}
+
+.footer-icon {
+    color: #1259c3; 
+    font-size: 40px;
+    text-align: center;
+}
+
+.imagen {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: solid 1px #ebebeb;
+}
+
+.texto {
+    background-color: white;
+    border-top: solid 1px #ebebeb;
+    position: relative;
+}
+
+h4{
+    text-align: left;
+    color:#666;
+    margin: 2%;
+    display: none;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+footer{
+    background-color: white;
+    padding:5%;
+}
+
+.copy{
+    text-align: left;
+    margin: 0%;
+}
+
+.buscador{
+    max-width: 30%;
+}
+
+nav{
+    display: none;
+
+}
+
+
+@media (min-width: 769px){
+    .burger-menu {
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .card{
+        max-width: 20%;
+        margin-left: 1px;
+        position: relative;
+    }
+
+    .card:hover     .imagen {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .card:hover h4{
+        display: block;
+    }
+
+    .pie{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer{
+        padding: 10px
+    }
+
+    .footer:hover .footer-icon{
+        color:#EAC926
+    }
+}
+
+
+@media (min-width: 361px){
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 45%;
+    }
+
+}
