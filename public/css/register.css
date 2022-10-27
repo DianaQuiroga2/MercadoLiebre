@@ -273,8 +273,9 @@ nav{
     color: black;
     justify-content: center;
     background-color: white;
-    border: solid 2px #ebebeb;
+    border: solid 2px #EAC926;
     padding: 10px;
+    border-radius: 2%;
 }
 
 .form-register h3{
@@ -300,15 +301,9 @@ nav{
 }*/
 
 /*registro*/
-
-.cancelar{
+a{
     text-decoration: none;
-    color:white
-}
-
-.login{
-    text-decoration: none;
-    color: gray
+    color: white;
 }
 
 .form-register a:hover{
@@ -353,3 +348,7 @@ h3{
     color: #4b4b44;;
     font-size: 18;
 }
+
+.boton:hover{
+    background-color:#02a
+    }
