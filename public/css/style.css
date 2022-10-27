@@ -130,7 +130,7 @@ p{
     position: absolute;
     right: 20px;
     top: -15px;
-    transition: transform .7s;
+    transition: transform 1s;
 }
 
 .card:hover .camion{

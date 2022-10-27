@@ -274,8 +274,8 @@ nav{
     justify-content: center;
     background-color: white;
     border: solid 2px #EAC926;
-    padding: 10px;
-    border-radius: 2%;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .form-register h3{
